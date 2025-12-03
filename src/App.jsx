@@ -1,0 +1,17 @@
+import React from "react";
+import { Routes } from "react-router-dom";
+import { Route } from "react-router-dom";
+import Home from "./pages/home";
+const App = () => {
+  return (
+    <div className="bg-[#7a5f7e] h-screen">
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </main>
+    </div>
+  );
+};
+
+export default App;
